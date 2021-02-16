@@ -11,6 +11,6 @@ Getting real ip in nginx behind WAF
                 ...
                 
                 #Get Real IP
-                set_real_ip_from ipv4;
+                set_real_ip_from 192.168.x.x;
                 real_ip_header ClientSourceIP;
         }
